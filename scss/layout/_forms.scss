@@ -1,0 +1,35 @@
+.form {
+  ::placeholder {
+    color: $info-dark;
+    font-weight: $weight-bold;
+  }
+
+  &__heading {
+    color: $primary-dark;
+    font-size: $font-md;
+    font-weight: $weight-bolder;
+  }
+
+  &__prg {
+    color: $secondary;
+    font-size: $font-sm;
+    font-weight: $weight-bold;
+  }
+
+  &__input {
+    font-size: $font-xs;
+  }
+  
+  &-control:focus {
+    border-color: $primary !important;
+  }
+
+  &__dropdown {
+    color: $info-dark;
+    font-size: $font-xs;
+
+    :focus {
+      border: 0.1rem solid $primary-dark;
+    }
+  }
+}

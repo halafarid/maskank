@@ -1,0 +1,28 @@
+.service {
+	width: 35%;
+	transition: all 0.3s ease-in-out;
+
+	&:hover {
+		background-color: $light;
+	}
+
+	&__heading {
+		margin: 4rem auto 8rem;
+	}
+
+	&__text {
+		color: $primary-dark;
+		font-weight: $weight-bold;
+	}
+
+	&__img {
+		width: 10rem;
+		height: 10rem;
+		padding: 0.5rem;
+		background: $linear;
+
+		&-src {
+			border: 0.4rem solid $default;
+		}
+	}
+}

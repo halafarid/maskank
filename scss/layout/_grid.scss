@@ -1,0 +1,42 @@
+.res {
+	&--width {
+		@include responsive(lg) {
+			width: 75%;
+		}
+	}
+
+	&--color {
+		@include responsive(lg) {
+			color: $default;
+		}
+	}
+
+	&__navbar {
+		.navbar__link {
+			@include responsive(lg) {
+				color: $default !important;
+			}
+		}
+	}
+
+	&--service {
+		@include responsive(sm) {
+			width: 25%;
+		}
+		@include responsive(md) {
+			width: 14%;
+		}
+	}
+
+	&__chatting {
+		@include responsive(sm) {
+			width: 50%;
+		}
+		@include responsive(md) {
+			width: 40%;
+		}
+		@include responsive(lg) {
+			width: 20%;
+		}
+	}
+}

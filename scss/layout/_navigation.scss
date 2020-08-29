@@ -1,0 +1,25 @@
+.navbar {
+  padding: 1rem 0 0.3rem;
+
+  &__logo {
+    border-left: 0.1rem solid $default;
+  }
+
+  &__link {
+    color: $primary !important;
+
+    &:hover:after {
+      content: "";
+      width:70%;
+      display: block;
+      position: relative;
+      top: 0.7rem;
+      border-bottom: 0.3rem solid $secondary;
+      margin: auto;
+    }
+  }
+
+  &__toggler:focus {
+    outline: 0.1rem auto $primary;
+  }
+}

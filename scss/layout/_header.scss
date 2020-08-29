@@ -1,0 +1,37 @@
+header {
+  @include bgImg('../../assets/bg_top.png', 100% auto);
+  min-height: 100vh;
+}
+
+.header {
+  &__content {
+    margin-top: 8rem;
+    
+    @include responsive(lg) {
+      margin-top: 15rem;
+    }
+  }
+
+  &__info {
+    color: $primary;
+    
+    @include responsive(lg) {
+      color: $default;
+    }
+
+    &-heading {
+      font-size: $font-xl;
+    }
+
+    &-prg {
+      font-size: 3.5rem;
+      font-weight: $weight-bold;
+    }
+
+    &-span {
+      font-size: $font-sm;
+      color: $info;
+      width: 90%;
+    }
+  }
+}

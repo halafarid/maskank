@@ -1,0 +1,62 @@
+.heading {
+	font-size: $font-mid;
+	font-weight: $weight-bold;
+	margin-bottom: 3rem;
+
+	&:after {
+		content: "";
+		display: block;
+		height: 3rem;
+		@include bgImg('../../assets/divider.png', contain, right);
+	}
+
+	&__pos {
+		&--center {
+			&:after {
+				background-position: center;
+			}
+		}
+	}
+
+	&--none {
+		&:after {
+			content: "";
+			background-image: none;
+		}
+	}
+
+	&--white {
+		&:after {
+			content: "";
+			display: block;
+			height: 5rem;
+			@include bgImg('../../assets/divider2.png', contain, center);
+		}
+	}
+
+	&--primary {
+		color: $primary;
+	}
+	&--default {
+		color: $default;
+	}
+
+	&__info {
+		color: $info-dark;
+		font-weight: $weight-bold;
+
+		&--normal {
+			font-size: $font-normal;
+		}
+		&--custom {
+			font-size: 2.5rem;
+		}
+
+		&--secondary {
+			color: $secondary;
+		}
+		&--default {
+			color: $default;
+		}
+	}
+}

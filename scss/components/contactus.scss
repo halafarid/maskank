@@ -1,0 +1,67 @@
+.contactus {
+	margin-top: 8rem;
+
+	&__text {
+		color: $primary-dark;
+		font-weight: $weight-bold;
+	}
+
+	&__icon {
+		background-color: $primary;
+		color: $default;
+		border-radius: 2rem;
+		font-size: $font-md;
+	}
+
+	&__bg {
+		margin-top: 7rem;
+		@include bgImg('../../assets/bg_foot1.png', cover);
+	}
+
+	&__chatting {
+		width: 60%;
+	}
+
+	&__msg {
+		border: 0.2rem solid $success-dark;
+		color: $success-dark;
+		border-radius: 2rem;
+		position: relative;
+		margin-bottom: 3rem;
+		background: $success-linear;
+
+		&:after {
+			content: "";
+			width: 0;
+			height: 0;
+			position: absolute;
+			bottom: -3rem;
+			left: 40%;
+			border-left: 3rem solid transparent;
+			border-right: 3rem solid transparent;
+			border-top: 3rem solid $success-dark;
+		}
+
+		&-name {
+			font-weight: $weight-bolder;
+			font-size: $font-sm;
+		}
+	}
+
+	&__chat {
+		background-color: $primary-hover;
+		color: $default;
+		border-bottom: 0.1rem solid #333;
+		border-top-right-radius: 1rem;
+		border-top-left-radius: 1rem;
+
+		&-icon {
+			border-left: 0.1rem solid #444;
+			padding-left: 1rem;
+		}
+	}
+
+	&-close {
+		cursor: pointer;
+	}
+}

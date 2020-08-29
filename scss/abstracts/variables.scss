@@ -1,0 +1,26 @@
+$primary: #0dafd6;
+$primary-dark: #27517b;
+$primary-light: #43d3f6;
+$primary-lightest: #f1f9fb;
+$primary-hover: #1e69b4;
+$secondary: #fca933;
+$linear: linear-gradient(to bottom, $primary, $primary-dark);
+
+$default: #fff;
+$light: #faf9f9;
+$info: #ddd;
+$info-dark: #8b8f8b;
+$success: #33cc33;
+$success-dark: #6ea30d;
+$success-linear: linear-gradient(360deg, #d5f39d 0%, #d5f39d 11%, #f0ffd4 100%);
+
+$font-xl: 6rem;
+$font-lg: 5rem;
+$font-md: 4rem;
+$font-normal: 2rem;
+$font-mid: 3rem;
+$font-sm: 2.5rem;
+$font-xs: 1.5rem;
+$weight-normal: 400;
+$weight-bold: 500;
+$weight-bolder: 600;

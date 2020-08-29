@@ -1,0 +1,4 @@
+footer {
+	@include bgImg('../../assets/bg_foot2.png', cover);
+	color: $default;
+}

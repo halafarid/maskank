@@ -1,0 +1,38 @@
+@mixin responsive($device) {
+    @if $device == xl {
+        @media (min-width: 128rem) {
+            @content;
+        }
+    }
+
+    @if $device == lg {
+      @media (min-width: 1024px) {
+        @content
+      }
+    }
+
+    @if $device == md {
+        @media (min-width: 768px) {
+            @content;
+        }
+    }
+
+    @if $device == sm {
+        @media (min-width: 640px) {
+            @content;
+        }
+    }
+}
+
+@mixin bgImg($url, $size: contain, $position: 0) {
+    background: {
+        image: url($url);
+        repeat: no-repeat;
+    }
+    @if $position != 0 {
+        background-position: $position;
+    }
+    @if $size != contain {
+        background-size: $size;
+    }
+}

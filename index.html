@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Maskank</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;800&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel='icon' href='assets/favicon.ico' type='image/x-icon'/ >
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="clearfix">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand navbar__logo pl-4 wow bounceIn" href="#">
+              <img src="assets/logo.png" alt="Logo" />
+            </a>
+            <button class="navbar-toggler navbar__toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav res__navbar">
+                <li class="nav-item">
+                  <a class="navbar__link nav-link mr-5" href="#">ماهو مسكنك</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navbar__link nav-link mr-5" href="#">خدمات مسكنك</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navbar__link nav-link mr-5" href="#">شروط البرنامج</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navbar__link nav-link mr-5" href="#">طلب سكن</a>
+                </li>
+                <li class="nav-item">
+                  <a class="navbar__link nav-link mr-5" href="#">طرق السداد</a>
+                </li>
+              </ul>
+              <div class="mr-auto">
+                <div class="contacts mr-2 d-inline-block position-relative rounded-circle">
+                  <i class="contacts-icon position-absolute fab fa-instagram"></i>
+                </div>
+                <div class="contacts mr-2 d-inline-block position-relative rounded-circle">
+                  <i class="contacts-icon position-absolute fab fa-google-plus-g"></i>
+                </div>
+                <div class="contacts mr-2 d-inline-block position-relative rounded-circle">
+                  <i class="contacts-icon position-absolute fab fa-whatsapp"></i>
+                </div>
+                <div class="contacts mr-2 d-inline-block position-relative rounded-circle">
+                  <i class="contacts-icon position-absolute fab fa-twitter"></i>
+                </div>
+                <div class="contacts mr-2 d-inline-block position-relative rounded-circle">
+                  <i class="contacts-icon position-absolute fab fa-facebook-f"></i>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="contacts-phone p-3 float-left font-weight-bold rounded-pill" dir="ltr">
+            <i class="contacts-icon--phone mr-2 fas fa-phone"></i>
+            +9668123123123
+          </div>
+        </div>
+        
+        <section class="text-right header__content">
+          <div class="row">
+            <div class="col-12 col-lg-5 header__info mt-5 wow fadeInDown">
+              <h1 class="header__info-heading font-weight-bolder">برنامج مَسكنك</h1>
+              <p class="header__info-prg mt-4">تملك مسكنك كما تحلم ان يكون</p>
+              <span class="header__info-span d-inline-block mb-5">فقط حدد مميزات مسكنك المطلوب وأحصل على عقارك بسعر التكلفة</span>
+            </div>
+            <div class="col-12 col-lg-7 wow fadeInUp" data-wow-delay="0.5s"> 
+              <img src="assets/pers.png" alt="Pers" class="d-block mx-auto"/>
+              <form class="form shadow text-center p-5">
+                <h2 class="form__heading">حدد مميزات مسكنك</h2>
+                <p class="form__prg mb-5">أطلب مسكنك الآن في المملكة .. كما تحلم أن يكون</p>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-3">
+                    <input type="text" class="form-control rounded-pill p-4 shadow-none form__input" placeholder="إسم العميل" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="col-12 col-md-6 mb-3 form-group">
+                    <select class="form-control form__dropdown rounded-pill shadow-none">
+                      <option>المدينة</option>
+                      <option>الرياض</option>
+                      <option>جدة</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-3">
+                    <input type="text" class="form-control rounded-pill p-4 shadow-none form__input" placeholder="البريد الإلكتروني" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="col-12 col-md-6 mb-3 form-group">
+                    <select class="form-control form__dropdown rounded-pill shadow-none">
+                      <option>الحي</option>
+                      <option>الرياض</option>
+                      <option>جدة</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-3">
+                    <input type="text" class="form-control rounded-pill p-4 shadow-none form__input" placeholder="رقم الهاتف" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="col-12 col-md-6 mb-3 form-group">
+                    <select class="form-control form__dropdown rounded-pill shadow-none">
+                      <option>عدد الغرف</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-3 form-group">
+                    <select class="form-control form__dropdown rounded-pill shadow-none">
+                      <option>نوع العقار</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                  <div class="col-12 col-md-6 mb-3">
+                    <button class="btn btn--primary rounded-pill shadow-none w-100">إطلب مسكنك الآن</button>
+                  </div>
+                </div>
+                <p class="heading__info text-right">* نتعهد بعدم تسليم معلوماتك الشخصية لأي جهة او أشخاص اخرين.</p>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-right wow fadeIn">
+          <h3 class="heading heading--primary mt-5">ماهو مسكنك</h3>
+          <div class="heading__info heading__info--normal res--width">
+            <p>هو احدى البرامج المسؤولية الاجتماعية لشركة إلمار العقارية</p>
+            <p>وهو تملك العقار بناءً على طلب ورغبة العميل من حيث يختار (المدينة - الحي - نوع العقار - عدد الغرف) ومن ثم نقوم نحن بشراء الاصل أو العقار. ومن ثم نقوم بتطويره بيعه للعميل بالسعر التكلفة.</p>
+          </div>
+        </section>
+
+        <section class="text-right mt-5 wow fadeIn">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <p class="heading__info heading__info--normal heading__info--secondary">
+                يمثل هذا البرنامج علاقة بين طرفين و هم:
+              </p>
+              <ul class="list--primary list--normal px-5 py-3">
+                <li>
+                  <span class="list--info list--custom">
+                    مسكنك ( شركة إلمار العقارية ) والعميل
+                  </span>
+                </li>
+                <li>
+                  <span class="list--info list--custom">
+                    يقوم العميل بإختيار ( المدينة - الحي - نوع العقار - عدد الغرف ) التي يرغب في تملكها حسب المواصفات التي يرغب بها
+                  </span>
+                </li>
+                <li>
+                  <span class="list--info list--custom">
+                    نقوم بإتمام مراحل البحث عن الاصل والبناء كما هو متفق عليه في العقد
+                  </span>
+                </li>
+                <li>
+                  <span class="list--info list--custom">
+                    في النهاية تسلم الوحدة إلى العميل جاهزة للسكن بسعر التكلفة.
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-4 wow pulse"> 
+              <img src="assets/vid_img.png" alt="Video Image" class="w-100" />
+              <p class="heading__info heading__info--custom heading__info--secondary res--color">
+                شاهد الفيديو التعريفي لمسكنك
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section>
+        <h3 class="heading heading--primary heading__pos--center service__heading text-center">خدمات مسكنك</h3>
+        <div class="service__container d-flex justify-content-between flex-wrap border-bottom mb-5">
+          <div class="service px-3 py-5 mx-5 my-3 res--service wow flipInY" data-wow-delay="0.5s">
+            <div class="service__img rounded-circle mx-auto">
+              <img src="assets/img1.png" class="w-100 rounded-circle service__img-src" alt="img1"/>
+            </div>
+            <p class="service__text mt-4 text-center">الصك بإسمك</p>
+          </div>
+          <div class="service px-3 py-5 mx-5 my-3 res--service wow flipInY" data-wow-delay="1s">
+            <div class="service__img rounded-circle mx-auto">
+              <img src="assets/img2.png" class="w-100 rounded-circle service__img-src" alt="img2"/>
+            </div>
+            <p class="service__text mt-4 text-center">سرعة الانجاز</p>
+          </div>
+          <div class="service px-3 py-5 mx-5 my-3 res--service wow flipInY" data-wow-delay="1.5s">
+            <div class="service__img rounded-circle mx-auto">
+              <img src="assets/img3.png" class="w-100 rounded-circle service__img-src" alt="img3"/>
+            </div>
+            <p class="service__text mt-4 text-center">آمن وحراسة</p>
+          </div>
+          <div class="service px-3 py-5 mx-5 my-3 res--service wow flipInY" data-wow-delay="2s">
+            <div class="service__img rounded-circle mx-auto">
+              <img src="assets/img4.png" class="w-100 rounded-circle service__img-src" alt="img4"/>
+            </div>
+            <p class="service__text mt-4 text-center">النظام الذكي</p>
+          </div>
+          <div class="service px-3 py-5 mx-5 my-3 res--service wow flipInY" data-wow-delay="2.5s">
+            <div class="service__img rounded-circle mx-auto">
+              <img src="assets/img5.png" class="w-100 rounded-circle service__img-src" alt="img5"/>
+            </div>
+            <p class="service__text mt-4 text-center">حضانة أطفال</p>
+          </div>
+          <div class="service px-3 py-5 mx-5 my-3 res--service wow flipInY" data-wow-delay="3s">
+            <div class="service__img rounded-circle mx-auto">
+              <img src="assets/img6.png" class="w-100 rounded-circle service__img-src" alt="img6"/>
+            </div>
+            <p class="service__text mt-4 text-center">حماية الكترونية</p>
+          </div>
+          <div class="service px-3 py-5 mx-5 my-3 res--service wow flipInY" data-wow-delay="3.5s">
+            <div class="service__img rounded-circle mx-auto">
+              <img src="assets/img7.png" class="w-100 rounded-circle service__img-src" alt="img7"/>
+            </div>
+            <p class="service__text mt-4 text-center">غاز مركزي</p>
+          </div>
+          <div class="service px-3 py-5 mx-5 my-3 res--service wow flipInY" data-wow-delay="4s">
+            <div class="service__img rounded-circle mx-auto">
+              <img src="assets/img8.png" class="w-100 rounded-circle service__img-src" alt="img8"/>
+            </div>
+            <p class="service__text mt-4 text-center">ضمان على الخدمات</p>
+          </div>
+          <div class="service px-3 py-5 mx-5 my-3 res--service wow flipInY" data-wow-delay="4.5s">
+            <div class="service__img rounded-circle mx-auto">
+              <img src="assets/img9.png" class="w-100 rounded-circle service__img-src" alt="img9"/>
+            </div>
+            <p class="service__text mt-4 text-center">إدارة اتحاد الملاك</p>
+          </div>
+          <div class="service px-3 py-5 mx-5 my-3 res--service wow flipInY" data-wow-delay="5s">
+            <div class="service__img rounded-circle mx-auto">
+              <img src="assets/img10.png" class="w-100 rounded-circle service__img-src" alt="img10"/>
+            </div>
+            <p class="service__text mt-4 text-center">خدمة ( تم ) للصيانة</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="requirements text-right">
+        <div class="row">
+          <div class="col-12 col-md-6 wow flipInX">
+            <h3 class="heading heading--primary">شروط التقدم</h3>
+            <ul class="list--info list--normal list--none list--xs px-5 py-3">
+              <li class="mb-3">
+                <span class="list--primarydark list--custom fa-li">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                سعودي الجنسية
+              </li>
+              <li class="mb-3">
+                <span class="list--primarydark list--custom fa-li">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                العمر فوق 20 سنة
+              </li>
+              <li class="mb-3">
+                <span class="list--primarydark list--custom fa-li">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                يجب أن يكون موظفاً في القطاع الحكومي أو الخاص لمدة لا تقل عن سنة
+              </li>
+              <li class="mb-3">
+                <span class="list--primarydark list--custom fa-li">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                أن لا يقل الدخل الشهري عن 4000 ريال سعودي
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 wow flipInX">
+            <h3 class="heading heading--primary">المستندات المطلوبة</h3>
+            <ul class="list--info list--normal list--none list--xs px-5 py-3">
+              <li class="mb-3">
+                <span class="list--primarydark list--custom fa-li">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                تعريف بالراتب
+              </li>
+              <li class="mb-3">
+                <span class="list--primarydark list--custom fa-li">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                كشف حساب من البنك لا تقل عن 3 شهور
+              </li>
+              <li class="mb-3">
+                <span class="list--primarydark list--custom fa-li">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                صورة عن الهوية الوطنية 
+              </li>
+              <li class="mb-3">
+                <span class="list--primarydark list--custom fa-li">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                إثبات بعنوان السكن
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="payment p-5">
+      <div class="container">
+        <h3 class="heading heading--default heading--white text-center">طرق الدفع والسداد</h3>
+        <div class="payment__ways">
+          <ul class="nav nav-tabs p-0" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link list__tab-link ml-2 active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">الطريقة الاولى</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link list__tab-link ml-2" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">الطريقة الثانية</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active py-5 px-2" id="first" role="tabpanel" aria-labelledby="first-tab">
+              <ul class="list--info list--normal list--none list--xs position-relative text-right py-3">
+                <li class="mb-3 mr-4">
+                  <span class="list--primarydark list--custom fa-li">
+                    <i class="fas fa-check-circle"></i>
+                  </span>
+                  دفع قيمة حجز الوحدة بقيمة 10,000 ريال سعودي   ( و يخصم من قيمة العقار )
+                </li>
+                <li class="mb-3 mr-4">
+                  <span class="list--primarydark list--custom fa-li">
+                    <i class="fas fa-check-circle"></i>
+                  </span>
+                  دفع بين 55% - 70% من قيمة الوحدة أو العقار قبل شرائنا الأصل
+                </li>
+                <li class="mb-3 mr-4">
+                  <span class="list--primarydark list--custom fa-li">
+                    <i class="fas fa-check-circle"></i>
+                  </span>
+                  دفع 30% من قيمة الوحدة أو العقار على مراحل المشروع
+                </li>
+              </ul>
+
+              <section>
+                <div class="payment__info d-flex justify-content-start text-right mx-4">
+                  <p class="payment__info-data1 p-4 mb-0 w-25">أقصى مبلغ للعقار</p>
+                  <p class="payment__info-data2 p-4 mb-0 w-70">500,000 ريال</p>
+                </div>
+                <hr />
+                <div class="payment__info d-flex justify-content-start text-right mx-4">
+                  <p class="payment__info-data1 p-4 mb-0 w-25">الدفعة المقدمة</p>
+                  <p class="payment__info-data2 p-4 mb-0 w-70">50% - 70% من قيمة الوحدة</p>
+                </div>
+                <hr />
+                <div class="payment__info d-flex justify-content-start text-right mx-4">
+                  <p class="payment__info-data1 p-4 mb-0 w-25">مواصفات وشروط البرنامج</p>
+                  <p class="payment__info-data2 p-4 mb-0 w-70">ارض بتصنيف سكني غير زراعي أو صناعي أو أخرى</p>
+                </div>
+                <hr />
+                <div class="payment__info d-flex justify-content-start text-right mx-4">
+                  <p class="payment__info-data1 p-4 mb-0 w-25">الدفعة الأخيرة</p>
+                  <p class="payment__info-data2 p-4 mb-0 w-70">30% على مراحل المشروع</p>
+                </div>
+              </section>
+            </div>
+            <div class="tab-pane fade py-5 px-2" id="second" role="tabpanel" aria-labelledby="second-tab">
+              <ul class="list--info list--normal list--none list--xs position-relative text-right py-3">
+                <li class="mb-3 mr-4">
+                  <span class="list--primarydark list--custom fa-li">
+                    <i class="fas fa-check-circle"></i>
+                  </span>
+                  دفع قيمة حجز الوحدة بقيمة 10,000 ريال سعودي   ( و يخصم من قيمة العقار )
+                </li>
+                <li class="mb-3 mr-4">
+                  <span class="list--primarydark list--custom fa-li">
+                    <i class="fas fa-check-circle"></i>
+                  </span>
+                  دفع بين 55% - 70% من قيمة الوحدة أو العقار قبل شرائنا الأصل
+                </li>
+              </ul>
+
+              <section>
+                <div class="payment__info d-flex justify-content-start text-right mx-4">
+                  <p class="payment__info-data1 p-4 mb-0 w-25">أقصى مبلغ للعقار</p>
+                  <p class="payment__info-data2 p-4 mb-0 w-70">500,000 ريال</p>
+                </div>
+                <hr />
+                <div class="payment__info d-flex justify-content-start text-right mx-4">
+                  <p class="payment__info-data1 p-4 mb-0 w-25">الدفعة المقدمة</p>
+                  <p class="payment__info-data2 p-4 mb-0 w-70">50% - 70% من قيمة الوحدة</p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="text-center">
+        <h3 class="heading heading--primary heading--none mt-5">تريد شراء مسكن أحلامك بمواصفاتك المُميزة</h3>
+        <button class="btn btn--primarydark rounded-pill shadow-none">إطلب مسكنك الآن</button>
+        <div class="contactus row">
+          <p class="col-12 col-lg-4 heading heading--primary heading--none mt-3">تواصل معنا الآن</p>
+          <div class="col-12 col-md-6 col-lg-4 wow zoomIn">
+            <div class="row">
+              <div class="col-8 ml-4">
+                <p class="contactus__text mt-4 mb-1 text-center">شارع التحلية - جدة </p>
+                <span class="contactus__text mt-4 text-center">المملكة العربية السعودية</span>
+              </div>
+              <div class="col-2 contactus__icon px-4 h-75 mt-3">
+                <i class="fas fa-map-marker-alt mt-3 d-inline-block"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 wow zoomIn" data-wow-delay="0.5s">
+            <div class="row">
+              <div class="col-8 col-md-6 ml-4">
+                <p class="contactus__text mt-4 mb-1 text-center">9660000000+</p>
+                <span class="contactus__text mt-4 text-center">9660000000+</span>
+              </div>
+              <div class="col-2 contactus__icon px-4 h-75 mt-3">
+                <i class="contacts-icon--phone text-white fas fa-phone mt-3 d-inline-block"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="contactus__bg">
+      <div class="contactus__chatting mr-5 res__chatting">
+        <div class="contactus__msg py-2 px-5 wow flash" data-wow-duration="2s">
+          <div class="d-flex justify-content-between">
+            <i class="fas fa-times d-inline-block mt-3 contactus-close"></i>
+            <p class="contactus__msg-name mb-0">Noor Capital</p>
+          </div>
+          <span class="mb-4 d-inline-block">Chat with us live</span>
+        </div>
+  
+        <div class="contactus__chat px-3 py-1">
+          <i class="fas fa-comment-dots mt-2 float-right contactus__chat-icon"></i>
+          <span>We are online - chat with us</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="p-2">
+      <div class="container">
+        <div class="d-flex justify-content-between pt-3">
+          <p>جميع الحقوق محفوظة . برنامج مسكنك 2020</p>
+          <div>
+            <div class="contacts contacts-footer mr-2 d-inline-block position-relative rounded-circle">
+              <i class="contacts-icon position-absolute fab fa-instagram"></i>
+            </div>
+            <div class="contacts contacts-footer mr-2 d-inline-block position-relative rounded-circle">
+              <i class="contacts-icon position-absolute fab fa-google-plus-g"></i>
+            </div>
+            <div class="contacts contacts-footer mr-2 d-inline-block position-relative rounded-circle">
+              <i class="contacts-icon position-absolute fab fa-whatsapp"></i>
+            </div>
+            <div class="contacts contacts-footer mr-2 d-inline-block position-relative rounded-circle">
+              <i class="contacts-icon position-absolute fab fa-twitter"></i>
+            </div>
+            <div class="contacts contacts-footer mr-2 d-inline-block position-relative rounded-circle">
+              <i class="contacts-icon position-absolute fab fa-facebook-f"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+  </body>
+</html>
