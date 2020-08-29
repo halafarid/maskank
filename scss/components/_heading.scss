@@ -7,7 +7,7 @@
 		content: "";
 		display: block;
 		height: 3rem;
-		@include bgImg('../../assets/divider.png', contain, right);
+		@include bgImg('../assets/divider.png', contain, right);
 	}
 
 	&__pos {
@@ -30,7 +30,7 @@
 			content: "";
 			display: block;
 			height: 5rem;
-			@include bgImg('../../assets/divider2.png', contain, center);
+			@include bgImg('../assets/divider2.png', contain, center);
 		}
 	}
 

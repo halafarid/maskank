@@ -15,7 +15,7 @@
 
 	&__bg {
 		margin-top: 7rem;
-		@include bgImg('../../assets/bg_foot1.png', cover);
+		@include bgImg('../assets/bg_foot1.png', cover);
 	}
 
 	&__chatting {

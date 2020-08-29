@@ -1,5 +1,5 @@
 .payment {
-	@include bgImg('../../assets/bg_tab.png', cover);
+	@include bgImg('../assets/bg_tab.png', cover);
 
 	&__info {
 		color: $info-dark;
